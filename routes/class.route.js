@@ -1,6 +1,6 @@
 // class.controller.js
 import { Router } from "express";
-import { createClass, getAllClasses, getClassById, updateClass, deleteClass } from "../controllers/class.controller.js";
+import { createClass, getAllClasses, getClassById, updateClass, deleteClass } from "../controllers/Class.controller.js";
 import { verifyJWT, isTeacher } from "../middleware/Auth.Middleware.js";
 
 const router = Router();
